@@ -8,3 +8,13 @@
     font-size: 14px;
     
 }
+#smalltxt{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    
+}
+#bigtxt{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
