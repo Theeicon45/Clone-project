@@ -10,7 +10,7 @@ const Navbar = () => {
       <div id="navlist" className='flex items-center  gap-8 cursor-pointer font-bold uppercase'>
         {
           navLists.map((nav)=> (
-            <div key={nav}>
+            <div key={nav} className='hover:text-Orange-300 active:bg-brown active:rounded-full '  >
               {nav}
             </div>
           ))
